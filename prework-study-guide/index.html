@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
           <li>Headings are listed from H1, H2, H3, H4, H5, and H6. H1 should only be used at the top of the page.</li>
         </ul>
         <li>The <b>body</b> (body) element represents the visible content shown to the user.</li>
-        <li>The <b>paragraph</b>> (p) element displays a block of text.</li>
+        <li>The <b>paragraph</b> (p) element displays a block of text.</li>
         <li>Lists can either be:
           <ul><b>unordered</b> (ul)
           <li>Item A (li) is a <b>listed item</b></li>
@@ -48,8 +49,40 @@
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
+        <h3>CSS Styles</h3>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li><b>Inline CSS</b>: Adding style to an element directly in a HTML file.</li>
+          <ul>
+            <li>EX: h1 style="color:red;">Prework Study Guide /h1</li>
+            <li>The style attribute is appended to the h1 element.</li>
+          </ul>
+          <li><b>Internal Style Sheet</b>: Creates a style sheet within the head element of one specific page.</li>
+          <ul>
+            <li>EX: The style sheet is placed within <b>style</b> commands in between the header.</li>
+          </ul>
+          <li><b>External Style Sheet</b>: All style changes are placed in a seperate file.</li>
+          <ul>
+            <li>Within the header element, a <b>link</b> element is inserted.</li>
+            <li>EX: (head) (<b>link</b>> rel="stylesheet" href="./assets/style.css" /)</li>
+          </ul>
+        </ul>
+        <h3>CSS Declarations</h3>
+        <ul>
+          <li><b>Selector</b>: Defines the element or attributes to which declarations apply.</li>
+          <li><b>Declarations</b>: Contain the property and value of the property.</li>
+          <li>EX: div (selector) color (property):blue (value);</li>
+        </ul>
+        <h4>CSS Box Model</h4>
+        <ul>
+          <li>The order is <b>Margin -> Border -> Padding -> CONTENT</b></li>
+          <li>The <b>margin</b> property indicates how much space should be <u>outside</u> of an element.</li>
+            <ul>
+              <li>A margin of 0 states that NO extra space is around the element.</li>
+            </ul>
+            <li>The <b>padding</b> property should indicates the space around the content <u>inside</u> an element.</li>
+            <ul>
+              <li>Padding INCREASES the size of the element.</li>
+            </ul>
         </ul>
       </section>
    
