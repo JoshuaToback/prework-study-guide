@@ -16,6 +16,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    line-height: 30px;
+}
+
 img {
     display: block;
     height: 50px;
