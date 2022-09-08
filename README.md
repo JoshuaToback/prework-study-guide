@@ -18,7 +18,7 @@ In the Git section, basic command line commands are shown in order to guide read
 
 In the Javascript section, notes about variables, methods, and functions describe how to create functionality for your site through for loops. 
 
-For suggestions on what to study first, open Chrome DevTools by plressing Command+Option+I (Mac) or Control+Shift+I (Windows). After doing this or right clicking and selecting "Inspect", a console panel containing a list of topics we learned from the prework should pop up. Randomly a topic will be selected as a suggestion to you! 
+For suggestions on what to study first, open Chrome DevTools by pressing Command+Option+I (Mac) or Control+Shift+I (Windows). After doing this or right clicking and selecting "Inspect", a console panel containing a list of topics we learned from the prework should pop up. Randomly a topic will be selected as a suggestion to you! 
 
 ## Credits
 
